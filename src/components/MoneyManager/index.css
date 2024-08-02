@@ -1,0 +1,177 @@
+.money-manager-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+.Richard-heading {
+  font-size: 30px;
+  color: #334155;
+  font-weight: 650;
+}
+.Richard-container {
+  width: 63vw;
+  height: 150px;
+  padding: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 15px;
+}
+.welcome-des {
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+}
+.MoneyManager {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0b69ff;
+}
+.money-manager-content {
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+.history {
+  font-size: 25px;
+  color: #475569;
+  font-weight: 550;
+  margin-bottom: 0px;
+}
+.transaction-des {
+  font-size: 20px;
+  color: #475569;
+  font-weight: 550;
+}
+.history-container {
+  width: 380px;
+  min-height: 500px;
+  padding: 20px;
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+}
+.transactions-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #7e858e;
+}
+.money-details-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.money-detail-item {
+  display: flex;
+  align-items: center;
+}
+
+.money-detail-title {
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.money-detail-amount {
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.money-detail-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.form-and-transactions-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-form {
+  width: 45%;
+  margin-bottom: 10px;
+  border: 1px solid #7e858e;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #7e858e;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #d7dfe9;
+  border-radius: 5px;
+}
+
+.add-button {
+  padding: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transactions-list {
+  width: 50%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.transaction-title,
+.transaction-amount,
+.transaction-type {
+  color: #475569;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.money-manager-content .add-button:hover {
+  background-color: #0053d6;
+}

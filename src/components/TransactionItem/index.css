@@ -1,0 +1,26 @@
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #7e858e;
+}
+
+.transaction-title,
+.transaction-amount,
+.transaction-type {
+  color: #475569;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button img {
+  width: 20px;
+  height: 20px;
+}
